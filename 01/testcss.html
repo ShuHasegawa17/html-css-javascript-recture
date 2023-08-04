@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* p {
+        color: blue;
+      } */
+      span {
+        color: red;
+      }
+      .b-class {
+        color: green;
+      }
+      table tr:first-child td {
+        font-weight: bold;
+      }
+
+      .parent > p {
+        color: aqua;
+      }
+      .parent p {
+        color: orange;
+      }
+      .content {
+        width: 100px;
+        height: 100px;
+        background-color: pink;
+        margin: 50px;
+        padding: 20px;
+      }
+      .diplay-block {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <p>親要素</p>
+      <div>
+        <p>孫要素</p>
+      </div>
+    </div>
+
+    <p class="pId">aaaaa</p>
+    <span class="content diplay-block">bbbbb</span>
+    <span class="b-class">cccc</span>
+    <table border="1">
+      <tr>
+        <td>aaa</td>
+      </tr>
+      <tr>
+        <td>aaa</td>
+      </tr>
+    </table>
+    <div class="content">
+      <span>box</span>
+    </div>
+  </body>
+</html>
