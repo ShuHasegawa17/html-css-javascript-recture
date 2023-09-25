@@ -1,3 +1,3 @@
-# htms,css,javascript の講義用リポジトリ
+# html,css,javascript の講義用リポジトリ
 
 - 宿題や課題のプログラムを管理する
